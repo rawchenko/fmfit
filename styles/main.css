@@ -1,0 +1,487 @@
+/*Основное*/
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    font-family: Roboto, arial;
+    font-size: 18px;
+    color: #323232;
+    background: #e5e7eA;
+}
+i{
+    margin-right: 10px;
+}
+b {
+    font-weight: bold;
+}
+h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/**/
+.social-media{
+    padding: 10px 0;
+}
+.social-media span{
+    padding-right:  13px;
+}
+.facebook:hover{
+    opacity: 50%;
+}
+.googleplus:hover{
+    opacity: 50%;
+}
+.twitter:hover{
+    opacity: 50%;
+}
+.linkedin:hover{
+    opacity: 50%;
+}
+.facebook{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../assets/Facebook.png);
+    background-repeat: no-repeat;
+}
+.googleplus{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../assets//Google.png);
+    background-repeat: no-repeat;
+}
+.twitter{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../assets/Twitter.png);
+    background-repeat: no-repeat;
+}
+.linkedin{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image:url(../assets/LinkedIn.png) ;
+    background-repeat: no-repeat;
+}
+/* Таблица */
+
+tr 
+    {
+        border: 1px solid #323232;
+    }
+td{
+    border: 1px solid #323232;
+    padding: 4px;
+}
+
+/* dl, dt, dd */
+dt{
+    margin-bottom: 5px;
+}
+dd {
+    font-style: italic;
+    color: grey;
+    margin-bottom: 10px;
+}
+/*Header*/
+.header-navbar{
+    background-color: #0d2d62;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+
+.header-navbar ul {
+    padding-top: 15px;
+    text-align: justify;
+    line-height: 0;
+    font-size: 1px;
+    text-justify: newspaper;
+    zoom:1;
+}
+.header-navbar ul:after {
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+    display: inline-block;
+
+}
+.header-navbar ul li  {
+    display: inline-block;
+    text-align: left;
+    line-height: normal;
+    font-size: 14px;
+    vertical-align: top;
+}
+.header-navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Основной header с навигацией*/
+
+.header--inner {
+    background: #e5e7eA;
+    height: 125px;
+    padding:0 50px;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 1px solid grey;
+}
+
+.header-logo{
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.header-logo a{
+    color: black;
+    text-decoration: none;
+}
+.header-logo span {
+    top: 8px;
+    left: 10px;
+    position: relative;
+}
+.header-navigation{
+    float: right;
+    padding-top: 40px;
+}
+.header-navigation ul li{
+    list-style: none;
+}
+.header-navigation ul li a{
+    text-decoration: none;
+    color: #222;
+    display: block;
+    text-align: center;
+    max-width: 230px;
+    padding: 10px 30px;
+    transition: all 0.4s ease;
+}
+.header-navigation > ul{
+    display: flex;
+    justify-content: center;
+}
+.header-navigation ul a:hover{
+    border-bottom: 3px solid #343434;
+    transition: all 0.3s ease;
+}
+
+.header-navigation li ul {
+    position: absolute;
+    display: none;
+    border-top: 3px solid #343434;
+    margin-left: -30px;
+    transition: all 0.3s;
+}
+.header-navigation li> ul li{
+    border: 1px solid #343434;
+}
+.header-navigation li> ul a {
+    padding: 10px;
+    background: #fff;
+}
+.header-navigation li> ul a:hover{
+    background-color: #343434;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+.header-navigation li:hover > ul{
+    display: block;
+    transition: all 0.3s;
+}
+/*Main*/
+main{
+    /* height: 480px; */
+    border-bottom: 1px solid grey;
+    padding-bottom: 40px;
+}
+/*Footer*/
+
+.footer{
+    display: flex;
+    height: 300px;
+    padding-top: 15px;
+    justify-content: space-between;
+    color: #343434;
+}
+.footer a {
+    color: #343434;
+    text-decoration: none;
+}
+
+
+.footer h4 {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+
+.footer li, p{
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+.footer-logo{
+    width: 140px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 900;
+    margin-top: 35px;
+}
+.footer-contacts {
+    width: 450px;
+}
+
+.footer-mailing{
+    width: 450px;
+}
+#form-email{
+    width: 200px;
+    height: 34px;
+}
+button {
+    background-color: brown;
+    border: none;
+    margin-left: -5px;
+    width: 140px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+.footer-copy{
+    background-color: #0d2d62;
+    color: white;
+    width: 100%;
+    height: 30px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
+/*Контакты*/
+h3 {
+    font-size: 42px;
+    font-weight: bold;
+    border-bottom: 2px solid grey;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+.heading {
+    background: brown;
+    height: 120px;
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+    font-size: 46px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+.connecting {
+    width: 65%;
+}
+
+.input {
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 15px 10px;
+    width: 45%;
+    margin: 7px 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.textarea {
+    width: 94.5%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.submit {
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    padding: 0 20px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    margin-left: 4px;
+    margin-top: 10px;
+}
+
+.contact-info {
+    width: 30%;
+    padding-top: 30px;
+    line-height: 170%;
+}
+.contact-info .social-media{
+    padding: 0;
+}
+.contact-info a {
+    color: #323232;
+}
+.contact-info h4{
+    font-size: 24px;
+    border-bottom: 1px solid grey;
+    margin: 15px 0px;
+    padding-bottom: 7px;
+}
+
+/*О нас*/
+h4 {
+    line-height: 150%;
+}
+.about-us li, 
+.departments li,
+.employees li{
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-top: 30px;
+}
+
+/* Новости */
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.news-block {
+    background: white;
+    width: 31.97%;
+    max-height: 600px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.news-block:nth-child(3n){
+    margin-right: 0;
+}
+
+.news-heading a{
+    display: block;
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    padding: 20px 20px;
+
+}
+.news-discription{
+    color: grey;
+    padding: 10px 20px;
+    text-overflow: ellipsis;
+}
+.news-info {
+    padding: 20px 20px;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.news-page>img,
+.news-block>img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.departments a,
+.employees a{
+    color: #323232;
+}
+
+h5 {
+    font-size: 40px;
+}
+.employee-page {
+    display: flex;
+    margin-top: 40px;
+}
+.employee-contacts {
+    width: 25%;
+}
+
+.employee-contacts button,
+.employee-contacts a,
+.employee-contacts img {
+    width: 100%;
+    display: block;
+    margin: 15px 0;
+}
+.employee-contacts .social-media a{
+    display: inline;
+}
+
+.employee-info {
+    padding-top: 15px;
+    padding-left: 50px;
+    width: 70%;
+}
+
+.employee-science {
+    color: grey;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+
+.introduction {
+    background-image: url(../assets/pic/univer.png);
+    background-repeat: no-repeat;
+    min-height: 459px;
+}
+
+h1{
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    padding: 70px 25px;
+}
+
+.main-page-disc{
+    color: white;
+    padding: 0 25px 50px;
+    line-height: 200%;
+}
+
+.main-page button {
+    width: 350px;
+    margin: 25px;
+}
+
+.main-page h2{
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #323232;
+    padding-bottom: 20px;
+}
+.main-about p{
+    margin: 60px 0;
+}
+.main-about .button-blue {
+    background: #0d2d62;
+    margin: 0px;
+}
