@@ -1,0 +1,126 @@
+
+@media screen and (max-width: 1024px) {
+    /* header */
+
+    .header-navbar{
+        height: 100px;
+    }
+    .header-navbar ul, 
+    .header-navbar ul li{
+        text-align: center;
+    }
+    .header-logo{
+        display: none;
+    }
+    .header--inner {
+        height: 80px;
+        padding: 0 0;
+        padding-top: 0;
+    }
+    .header-navigation{
+        float: left;
+        width: 100vw;
+        height: 100vh;
+        background: white;
+        display: none;
+
+         
+     }
+    .header-navigation ul{
+        background: white;
+        display: none;
+        width: 100%;
+        position: relative;
+        z-index: 10;
+        
+    }
+    .header-navigation ul li{
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    .header-navigation ul li a {
+        margin: 0 auto;
+    }
+    label.toggleMenu {
+        display: block;
+    }
+
+    input.toggleMenu:checked + label.toggleMenu {
+        background: #0d2d62;
+        color: white    ;
+    }
+    input.toggleMenu:checked ~ .header-navigation>ul {
+        display: block;
+    }
+    input.toggleMenu:checked ~ .header-navigation {
+        display: block;
+    }
+    body{
+        width: 100vw;
+    }
+    .wrapper {
+        max-width: calc(100vw - 5%);
+    }
+    main {
+        width: 100vw;
+    }
+
+    /* main */
+
+    h1 {
+        font-size: 36px;
+        padding: 36px 24px;
+    }
+    .main-page-disc {
+        line-height: 24px;
+    }
+    button{
+        margin: 0 auto;
+    }
+    .news-block {
+        width: 100%;
+    }
+    .contact {
+        display: block;
+    }
+    .contact>div{
+        width: 100%;
+    }
+    .contact input{
+        width: calc(100% - 24px);
+    }
+    /* footer */
+    .footer {
+        display: block;
+        height: 700px;
+        width: 100%;
+    }
+    .footer-logo{
+        text-align: center;
+        width: 100%;
+    }
+    .footer h4 {
+        text-align: center;
+    }
+    .footer-contacts {
+        width: 100%;
+    }
+    .footer {
+        display: block;
+        height: 700px;
+        width: 100%;
+    }
+    .footer-logo{
+        text-align: center;
+        width: 100%;
+    }
+    .footer h4 {
+        text-align: center;
+    }
+    .footer-contacts {
+        width: 100%;
+    }
+    .footer-mailing {
+        width: 100%;
+    }
+}

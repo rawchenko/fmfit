@@ -1,6 +1,7 @@
 /*Основное*/
 .wrapper {
     width: 1200px;
+    max-width: 100vw;
     margin: 0 auto;
 }
 body{
@@ -8,6 +9,7 @@ body{
     font-size: 18px;
     color: #323232;
     background: #e5e7eA;
+    overflow-x: hidden;
 }
 i{
     margin-right: 10px;
@@ -20,7 +22,15 @@ h4 {
     margin-bottom: 10px;
     font-weight: bold;
 }
+.header--inner [type="checkbox"],
+.header--inner label{
+    display: none;
+    cursor: pointer;
+    padding: 24px;
+    
+}
 /**/
+
 .social-media{
     padding: 10px 0;
 }
@@ -240,11 +250,11 @@ main{
     margin-top: 35px;
 }
 .footer-contacts {
-    width: 450px;
+    width: calc(100% / 3);
 }
 
 .footer-mailing{
-    width: 450px;
+    width: calc(100% / 3);
 }
 #form-email{
     width: 200px;
@@ -414,7 +424,6 @@ p{
     margin: 0 auto;
     width: 100%;
     max-width: 500px;
-    vertical-align: middle;
 }
 
 .departments a,
